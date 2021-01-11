@@ -42,7 +42,7 @@ there are some issues with their usage.
     infrastructure to run safely across the system. This has greater
     implications on a system with heterogeneous CPUs.
     The infrastructure exports a value that is safe across all the
-    available CPU on the system.
+    available CPUs on the system.
 
     e.g, If at least one CPU doesn't implement CRC32 instructions, while
     others do, we should report that the CRC32 is not implemented.
